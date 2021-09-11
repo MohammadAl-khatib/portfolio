@@ -81,8 +81,7 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Why Tech Industry?{" "}
                       </h1>
                       <p className="lead text-white">
                         There is always something new to learn in tech and the
@@ -91,30 +90,7 @@ class Landing extends React.Component {
                         family, exercise, and hobbies if I have a good job in
                         tech (as I hope).
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
+                      <h3 style={{color:"white", marginTop:"70px"}}>My Projects</h3>
                     </Col>
                   </Row>
                 </div>
@@ -261,7 +237,9 @@ class Landing extends React.Component {
                             Horned Beast
                           </h6>
                           <p className="description mt-3">
-                            The website deals with deploying on netlify, passing data through props and states, bootstrap,and react components.
+                            The website deals with deploying on netlify, passing
+                            data through props and states, bootstrap,and react
+                            components.
                           </p>
                           <div>
                             <Badge color="danger" pill className="mr-1">
@@ -292,72 +270,20 @@ class Landing extends React.Component {
           </section>
           <section className="section section-lg">
             <Container>
-              <Row className="row-grid align-items-center">
+              <Row className="row-grid align-items-top">
                 <Col className="order-md-2" md="6">
-                  <img alt="..." className="img-fluid floating" src={promo1} />
+                <iframe src="https://drive.google.com/file/d/1zAZnw_QjmebV4V6u2H2DYHmZo3zr76CD/preview" width="480" height="350" allow="autoplay" ></iframe>
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
-                      <i className="ni ni-settings-gear-65" />
+                      <i className="ni ni-air-baloon" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>My Story</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The decision to make a career shift, and how and what I learned as a software developer.
                     </p>
-                    <ul className="list-unstyled mt-5">
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-settings-gear-65" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Carefully crafted components
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-html5" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-2">
-                        <div className="d-flex align-items-center">
-                          <div>
-                            <Badge
-                              className="badge-circle mr-3"
-                              color="success"
-                            >
-                              <i className="ni ni-satisfied" />
-                            </Badge>
-                          </div>
-                          <div>
-                            <h6 className="mb-0">
-                              Super friendly support team
-                            </h6>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                    
                   </div>
                 </Col>
               </Row>
